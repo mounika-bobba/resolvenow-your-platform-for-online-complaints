@@ -1,6 +1,6 @@
-const mongoose = require('mongoose')
-const User = require('../models/User')
-require('dotenv').config()
+import mongoose from 'mongoose'
+import User from '../models/User.js'
+import 'dotenv/config'
 
 const createDemoUsers = async () => {
   try {
